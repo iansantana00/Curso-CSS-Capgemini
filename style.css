@@ -1,0 +1,51 @@
+h1{
+    color: red;
+}
+/* Modificar o h1 que está dentro da main*/
+main h1{
+    color: black;
+}
+h2{
+    color:green;
+    text-decoration: underline;
+}
+p{
+    color:yellowgreen;
+}
+.titulo-aula{
+    text-decoration: underline;
+}
+.texto-azul{
+    color:blue;
+}
+.texto-vermelho{
+    color:red;
+}
+/* Sobreescrever o titulo-aula */
+#titulo-primeira-aula{
+    text-decoration: none;
+}
+#titulo-segunda-aula{
+    color:brown;
+}
+.comentario{
+    color:red;
+}
+/* mudar a cor da classe comentário no texto-vermelho*/
+.texto-vermelho .comentario{
+    color:blue;
+} /* O comentário que está dentro do texto vermelho*/
+.texto-vermelho.comentario{
+    color: green
+} /* O elemento que tenha texto vermelho e comentário 
+( a tag que tenha as duas classes*/
+/* criar a classe comentário */
+
+
+
+
+
+
+
+
+
